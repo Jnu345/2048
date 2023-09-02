@@ -1,0 +1,247 @@
+@font-face {
+    font-family: ubunto-reg;
+    src: url(./fonts/Ubuntu-Regular.ttf);
+}
+
+* { box-sizing: border-box;}
+
+body {background-color: #060606;
+      margin: 0px;
+      box-sizing: border-box;
+      margin-inline-start:0px ;
+      color: antiquewhite;     
+    }
+
+a { color: inherit;}
+
+.oval-cont { position: relative;
+             height: 35px;
+}
+
+.oval {background-color:  #F9A000;
+       height: 35px;
+       width: 35px;
+       display: inline-flex;
+       border-radius: 50%;
+       position: absolute;
+    
+    }
+
+.oval2 {background-color: #C8D974;
+        opacity:50%;
+        left: 23px;
+        z-index: 1;    
+    }
+
+    .list { display: inline-flex;
+            bottom: 33px;
+            right: 3%;
+            font-family: ubunto-reg;
+            font-size: 18px;
+            font-weight: 500px;
+            align-items: center
+        }
+
+.nav-bar {
+            display: flex;
+            background-color: #060606;
+            width: 100%;
+            height: 97px;
+            justify-content: space-between;
+            align-items: center;
+            padding:0 168px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+
+
+.home-btn a {color: #F9A000;
+             padding-left: 40px;
+             padding-top: 6px;     
+}
+
+.nav-bar .list a {
+   padding:8px 36px;
+   border-radius: 16px;
+   text-decoration: none;
+}
+
+.active {background-color: #c8d97426;
+         color: #CEFF05 !important;
+         }
+
+
+
+.signup { display: flex;
+         background-color: #060606;
+         border-radius:16px ;
+         border: 1px solid #CEFF05;
+         align-items: center
+}
+
+.ico-frame{ display: flex;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.su-icon {
+            height: 9.5px;
+            width: 9.5px;
+            background-color: #CEFF05;
+            border-radius: 50%;
+}
+
+
+.su-icon2 {
+    height: 9.25px;
+    width: 14px;
+    background-color: #CEFF05;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+.su-txt {color: antiquewhite;
+    font-family: ubunto-reg;
+    font-size: 18px;
+    padding: 8px 32px;
+}
+
+
+.mcta {padding: 0px 168px;
+               width: 100%;
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               gap: 40px;          
+}
+
+.title { width: 40%;
+    }
+
+h1 {color: antiquewhite;
+    max-width: 446px;
+    font-family: ubunto-reg;
+    font-size: 44px;
+    font-weight: 700px;
+    line-height: 64px;
+    text-align: left;
+    
+}
+
+.p {color: antiquewhite;
+    max-width: 446px;
+    font-family: ubunto-reg;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 28px;
+    text-align: left;}
+
+.img {width: 60%;}
+
+
+.p-cont { display: flex;
+          padding: 50px 168px;
+          justify-content: space-between;
+          align-items: center;
+
+
+}
+
+.p-cont p { width: 404px;
+            padding:8px;
+}
+
+.p1 {
+    font-family: ubunto-reg;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 52px;
+     letter-spacing: 2px;
+    }
+
+.p2 {font-family: ubunto-reg;
+     font-style: normal;
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 28px;
+
+}
+
+.bord-cont {display: flex;
+            align-items: center;
+            justify-content: center;
+}
+
+.bordered { width: 1100px;
+            height: 178px;
+            margin-bottom: 31px;
+            border-radius: 40px;
+            display: flex;
+            background-color: #FFFFFF14;
+            flex-direction: column;
+}
+
+.bordered a {text-decoration: none;
+             font-family: Ubunto-reg;
+             font-style: normal;
+             font-weight: 500;
+             font-size: 20px;
+             line-height: 23px;
+             
+}
+
+.icon { display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+
+.icons { display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-top: 20px;
+        width: 100%;
+}
+
+.arrow { margin-left: 60px;
+}
+
+.texts { display: flex;
+        justify-content: space-around;
+         height: 50%;
+         width: 100%;
+}
+
+.texts img { height: 50px;
+
+}
+
+.text { display: flex;
+        max-width: 150px;
+        align-items: center;
+}
+
+.text p { 
+    padding-left:10px;
+    font-family: ubunto-reg;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+.text1 p {
+    width: 150px;
+}
+
+.text2 p {
+    max-width: 172px;
+}
+
+.text3 p {
+    max-width: 180px;
+}
